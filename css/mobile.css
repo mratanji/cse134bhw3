@@ -60,7 +60,7 @@ hr{
 	font-family:  "Trebuchet MS", Helvetica, sans-serif;
 }
 
-.glyphicon.glyphicon-refresh, .glyphicon.glyphicon-cog {
+.glyphicon.glyphicon-refresh, .glyphicon.glyphicon-cog, .glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-plus  {
 	margin-top: 30px;
 /*	color: white;*/
 }
