@@ -1,0 +1,98 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: #00FFCC;
+	position: absolute;
+	top: 0px;
+	height: 8em;
+	width: 100%;	
+}
+
+footer {
+	background-color: #00FFCC;
+	position: absolute;
+	bottom: 0px;
+	height: 4em;
+	width: 100%;
+
+	text-align: center;
+}
+
+body {
+	background-color: white;
+	font-family:  "Trebuchet MS", Helvetica, sans-serif;
+}
+#welcome{
+	margin-left: 10em;
+	margin-top: 20em;
+}
+
+#sign_up, #log_in{
+	width: 20em;
+	background-color: transparent;
+	border-style: solid; 
+	color: black;
+}
+
+#sign_up:hover, #log_in:hover {
+	background-color: transparent;
+	color: #4CBCFF;
+}
+
+.btn-lg{
+	padding:10px 16px;
+	font-size:18px;
+	line-height:1.3333333;
+	border-radius:6px
+}
+
+/*
+ * Left Nav
+ * --------------------------------------------------
+ */
+
+ #left-nav{
+ 	padding-top: 9em;
+ 	width: 20%;
+ 	text-align: center;
+ }
+
+#left-nav li a {
+  color: #000000;
+  border-bottom: 1px dotted lightgray;
+}
+
+#left-nav li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+#left-nav li a:hover {
+  color: black;
+  
+}
+
+.curr {
+  color: #00FFCC;
+  
+}
+
+/*Content for first*/
+.info{
+	background-color: #00FFCC;
+
+}
+
+div.col-sm-10.firstcontent {
+	padding-top: 150px;
+	width: 25%;
+	
+}
+
+
+
+
+
