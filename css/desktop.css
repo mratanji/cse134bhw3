@@ -3,11 +3,22 @@
 	padding: 0px;
 }
 
+html { 
+	height: 100%; 
+	width: 100%; 
+	margin: 0; 
+}
+
+body {
+	background-color: white;
+	font-family:  "Trebuchet MS", Helvetica, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+
 header {
 	background-color: #00FFCC;
-	position: absolute;
-	top: 0px;
-	height: 8em;
+	height: 10%;
 	width: 100%;	
 }
 
@@ -15,29 +26,24 @@ footer {
 	background-color: #00FFCC;
 	position: absolute;
 	bottom: 0px;
-	height: 4em;
+	height: 5%;
 	width: 100%;
-
 	text-align: center;
 }
 
-body {
-	background-color: white;
-	font-family:  "Trebuchet MS", Helvetica, sans-serif;
-}
 #welcome{
-	margin-left: 10em;
-	margin-top: 20em;
+	margin-left: 15%;
+	margin-top: 15%;
 }
 
-#sign_up, #log_in{
-	width: 20em;
+.btn-clear{
+	width: 20%;
 	background-color: transparent;
 	border-style: solid; 
 	color: black;
 }
 
-#sign_up:hover, #log_in:hover {
+.btn-clear:hover {
 	background-color: transparent;
 	color: #4CBCFF;
 }
@@ -47,4 +53,12 @@ body {
 	font-size:18px;
 	line-height:1.3333333;
 	border-radius:6px
+}
+.center {
+	text-align: center;
+	margin-top: 0;
+}
+#signup_hr {
+	margin-left: 30%;
+	width: 50%;
 }

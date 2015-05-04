@@ -2,11 +2,10 @@
 	margin: 0px;
 	padding: 0px;
 }
+html{ height: 100%; width: 100%; margin: 0; }
 
 header {
 	background-color: #00FFCC;
-	position: absolute;
-	top: 0px;
 	height: 10%;
 	width: 100%;	
 }
@@ -24,32 +23,44 @@ footer {
 body {
 	background-color: white;
 	font-family:  "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 20px
+	font-size: 20px;
+	height: 100%;
+	width:	100%;
 }
 
-#welcome{
-	width: 90%;
+#welcome, #login{
+	width: 95%;
 	margin: 0 auto;
-	margin-top: 25%;
+	margin-top: 5%;
 	text-align: center;
 }
 
-#sign_up, #log_in{
+
+.btn-clear{
 	width: 80%;
-	height: 5%;
 	background-color: transparent;
 	border-style: solid; 
 	color: black;
 }
 
-#sign_up:hover, #log_in:hover {
+.btn-clear:hover {
 	background-color: transparent;
 	color: #4CBCFF;
 }
 
 .btn-lg{
 	padding:10px 16px;
-	font-size:18px;
+	font-size: medium;
 	line-height:1.3333333;
 	border-radius:6px
+}
+.center {
+	text-align: center;
+	margin-top: 0;
+}
+#signup_hr {
+
+}
+
+.pure-control-group {
 }
