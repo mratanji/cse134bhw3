@@ -20,13 +20,84 @@ footer {
 	font-size: small;
 }
 
+nav{
+	max-width: 730px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
 body {
+	margin-top: 75px;
+	max-width: 100%;
 	background-color: white;
 	font-family:  "Trebuchet MS", Helvetica, sans-serif;
 	font-size: 20px;
 	height: 100%;
 	width:	100%;
 }
+
+p{
+	margin:0;
+}
+
+hr{
+	margin:0;
+}
+
+.container{
+	max-width: 730px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar.navbar-fixed-top{
+	/*background-color: #00FFCC;*/
+	color: gray;
+	font-family:  "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.glyphicon.glyphicon-refresh, .glyphicon.glyphicon-cog {
+	margin-top: 30px;
+/*	color: white;*/
+}
+
+.glyphicon.glyphicon-play{
+	color: gray;
+}
+
+.stickRight{
+	float: right;
+}
+
+.myStack{
+	background-color: #F2F2F2;
+
+}
+
+.myStack .glyphicon{
+	margin-top: 20px;
+}
+
+.float_center{
+	float: right;
+	left: -50%;
+	text-align: left;
+}
+
+.float_left{
+	float: left;
+}
+
+.float_right{
+	float: right;
+}
+
+
 
 #welcome, #login{
 	width: 95%;
