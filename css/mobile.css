@@ -71,6 +71,12 @@ hr{
 	color: gray;
 }
 
+.glyphicon.glyphicon-menu-hamburger, .glyphicon.glyphicon-stats{
+	font-size:30px;
+	padding: 5px;
+	background-color: #F2F2F2;
+}
+
 .stickRight{
 	float: right;
 }
@@ -138,6 +144,15 @@ hr{
 	text-align: center;
 	margin-top: 0;
 }
+
+.small-font{
+	font-size:12px;
+}
+
+.medium-font{
+	font-size:18px;
+}
+
 #signup_hr {
 
 }
