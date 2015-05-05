@@ -31,6 +31,49 @@ footer {
 	text-align: center;
 }
 
+nav{
+	/*max-width: 730px;*/
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container{
+	/*max-width: 730px;*/
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-top: auto;
+	margin-left: 0px;
+}
+
+.navbar{
+	background-color: #00FFCC;
+	color: black;
+	font-family:  "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.float_center{
+	float: right;
+	left: -50%;
+	position: relative;
+	text-align: left;
+}
+
+.float_left{
+	float: left;
+}
+
+.float_right{
+	float: right;
+}
+
+.glyphicon.glyphicon-refresh, .glyphicon.glyphicon-cog, .glyphicon.glyphicon-chevron-left, .glyphicon.glyphicon-plus  {
+	margin-top: 25px;
+/*	color: white;*/
+}
+
 #welcome{
 	margin-left: 15%;
 	margin-top: 15%;

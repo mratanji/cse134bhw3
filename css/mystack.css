@@ -1,0 +1,21 @@
+p{
+	margin:0;
+}
+
+
+.center_text{
+	text-align: center;
+}
+
+.curr_spot{
+	border: 1px solid lightgray;
+	padding: 10px;
+}
+
+.sideNav p{
+	color: gray;
+}
+
+.glyphicon.glyphicon-home{
+	font-size: 20px;
+}
