@@ -3,33 +3,60 @@
 <head>
 	<title>Collector</title>
 	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <title>Collector</title>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="../css/mobile.css">
-	<link rel="stylesheet" type="text/css" href="../css/item_detail_mobile.css">
+	<link rel="stylesheet" type="text/css" href="../css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="../css/firstpage.css">
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/item_detail.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
 </head>
 <body>
-	<!-- Top Nav -->
-	<div class="navbar navbar-fixed-top" id="topNav" role="navigation">
-	    <nav>
-	        <ul class="nav nav-pills pull-left">
-	            <li role="presentation">
-	                <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
-	            </li>
-	        </ul>
-	    </nav>   
-	    <center>
-	        <h1><b>US Eagle</b></h1>
-	    </center>
-	</div>
+	<header>
+		<h1 style="margin:0 auto;">MyStackApp</h1>
+	</header>
 
-	<div>
+	<!-- Sidebar -->
+  	<div class="container">
+
+    <!-- Content -->
+    <div class="row">
+      
+      <!-- Left Nav -->
+      <div id="left-nav" class="col-sm-2" role="navigation">
+        <ul class="nav nav-list">
+              <li ><a href="#">
+              	<div><span class="glyphicon glyphicon-home" aria-hidden="true"></span></div>
+              	<div>
+              		Home
+              	</div>
+              </a>
+              </li>
+              
+              <li><a href="#">
+              	<div><h4>Au</h4></div>
+              	<div>
+              		My Gold
+              	</div>
+              </a>
+              </li>
+              <li class="curr" style="color: #00FFCC; background-color: lightgray;"><a href="#">
+              	<div><h4>Ag</h4></div>
+              	<div style="color: white;">
+              		My Silver
+              	</div>
+              </a>
+              </li>
+              <li ><a href="#">
+              	<div><h4>Pt</h4></div>
+              	<div>
+              		My Platinum
+              	</div>
+              </a>
+              </li>
+        </ul>
+      </div>
+
+	<div id="title" class="main-container">
 		<h1>Item Detail</h1>
 	</div>
 	<div style="text-align: center;">
