@@ -38,7 +38,7 @@ footer {
  */
 
  #left-nav{
- 	padding-top: 9em;
+ 	
  	width: 20%;
  	text-align: center;
  }
@@ -65,10 +65,11 @@ footer {
 /*Content for first*/
 .info{
 	background-color: #00FFCC;
+	height: 66px;
 
 }
 
 div.col-sm-10.firstcontent {
-	padding-top: 150px;
+	padding-top: 6px;
 	width: 25%;
 }

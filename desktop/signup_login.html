@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Sign-up or Log in</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="../css/desktop.css">
+	<title>Sign-up</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/desktop.css">
+    <link rel="stylesheet" type="text/css" href="../css/mystack.css">
+
+
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 </head>
 <body>
-	<div>
-	<header>	
-	</header>
-	</div>
-	<h1 style="text-align: center; vertical-align: center;"> Join us, or log in </h1> 
+    <div class="navbar" id="topNav" role="navigation">
+        <nav>
+            <ul class="nav nav-pills pull-left">
+                <li role="presentation">
+                	<a href="home.html" style="text-decoration:none; color: black;">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+                </li>
+            </ul>
+        </nav>
+        <center>
+            <h3>Collector</h3>
+        </center>
+    </div>
+
+
+	<h1 style="text-align: center; vertical-align: center; padding-left:50px;"> Join us</h1> 
 	<div class="center">
 		<form class="pure-form pure-form-aligned">
 		    <fieldset>
@@ -31,13 +51,11 @@
 		            <label for="email">Email Address</label>
 		            <input id="email" type="email" placeholder="Email Address">
 		        </div>
+				<a href="home.html">
+		        <div class="pure-controls">
 
-		        <div class="pure-controls">
-		            <button type="submit" class="btn-lg btn-clear">Log in</button>
-		        </div>
-		        <div class="pure-controls">
-		            <button type="submit" class="btn-lg btn-clear">Sign up</button>
-		        </div>
+		            <button class="btn-lg btn-clear">Sign up</button>
+		        </div></a>
 		    </fieldset>
 		</form>
 	</div>
