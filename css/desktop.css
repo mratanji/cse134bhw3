@@ -95,7 +95,16 @@ nav{
 	padding:10px 16px;
 	font-size:18px;
 	line-height:1.3333333;
-	border-radius:6px
+	border-radius:6px;
+	background-color: transparent;
+	border-style: solid; 
+	color: black;
+}
+
+.btn-lg:hover  {
+	background-color: transparent;
+	color: #4CBCFF;
+}
 }
 .center {
 	text-align: center;
@@ -104,4 +113,8 @@ nav{
 #signup_hr {
 	margin-left: 30%;
 	width: 50%;
+}
+
+.main-container {
+	margin-top: 10%;
 }

@@ -3,19 +3,69 @@
 <head>
 	<title>Collector</title>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="../css/firstpage.css">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/item_detail.css">
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 
 </head>
 <body>
-	<header> </header>
-		
-	<div id="welcome">	
-		<div style>
-			<h1>Collector</h1>
-			<h4>Add Platinum Item</h4>
-			<br>
-				<form class="pure-form" method=“get” action=“platdetail.html”>
-					<table>
+	<header>
+		<h1 style="margin:0 auto;">MyStackApp</h1>
+	</header>
+
+	<!-- Sidebar -->
+  	<div class="container">
+
+    <!-- Content -->
+    <div class="row">
+      
+      <!-- Left Nav -->
+      <div id="left-nav" class="col-sm-2" role="navigation">
+        <ul class="nav nav-list">
+              <li ><a href="#">
+              	<div><span class="glyphicon glyphicon-home" aria-hidden="true"></span></div>
+              	<div>
+              		Home
+              	</div>
+              </a>
+              </li>
+              
+              <li><a href="#">
+              	<div><h4>Au</h4></div>
+              	<div>
+              		My Gold
+              	</div>
+              </a>
+              </li>
+              <li ><a href="#">
+              	<div><h4>Ag</h4></div>
+              	<div>
+              		My Silver
+              	</div>
+              </a>
+              </li>
+              <li class="curr" style="color: #00FFCC; background-color: lightgray;" ><a href="#">
+              	<div><h4>Pt</h4></div>
+              	<div style="color: white;">
+              		My Platinum
+              	</div>
+              </a>
+              </li>
+        </ul>
+      </div>
+
+	<div id="title" class="main-container">
+		<h1>Add Item</h1>
+	</div>
+	<div id="item_img">
+		<img src="../images/item_placeholder.png" style="height:auto; width:auto; max-width:150px; max-height:150px;" alt="Item Image">
+	</div>
+
+	<div id="details">
+		<form class="pure-form" >
+			<table>
 				<tbody>
 					<tr><td><label>Metal </label></td><td>Platinum <br></td></tr>
 					<tr><td><label>Type </label></td><td><input type="text" name="type"/> </td></tr>
@@ -29,15 +79,15 @@
 					<tr><td><label>Platinum ozt/u </label></td><td>0.0400</td></tr>
 					<tr><td><label>Total au(ozt) </label></td><td>0.0400</td></tr>
 					<tr><td><label><b>TOTAL</b> </label></td><td>1199.10</td></tr>
-
-
-					<tr><td><a href="home.html">Cancel</a></td><td> <button>Save to my stack</button></td></tr>
-					</tbody>
+					<tr><td><a class="btn-lg" href="home.html">Cancel</a></td><td> 
+						<button class="btn-lg">Save to my stack</button></td></tr>
+				</tbody>
 			</table>
-				</form>
+		</form>
 			
 		
 		</div>
+	</div>
 	</div>
 	<footer>&copy;2015 Collector</footer>
 </body>
