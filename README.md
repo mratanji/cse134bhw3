@@ -8,4 +8,4 @@ To see what the pages should look like, use the wire frame the professor uploade
 
 ## Issues and concerns
 One issue we encountered is a warning from the W3C validator that some of the date functionality in our forms will not work correctly. Doing browser testing revealed at least one instance of glyphicons not loading on FireFox, which is something that should be looked into further as time permits. 
-Another implementation decision we made was forgoing the back arrows in a lot of our pages. I did this because it didn't make sense to put an arrow a few pixels away from the side nav bar, when both of the buttons would do the same function
+Another implementation decision we made was forgoing the back arrows in a lot of our pages. We did this because it didn't make sense to put an arrow a few pixels away from the side nav bar, when both of the buttons would do the same function
